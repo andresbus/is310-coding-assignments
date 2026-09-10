@@ -1,0 +1,1 @@
+I useed AI to help me brainstorm ideas for a sports-themed maze and to also remember the exact terminal comands. I typed everything myself and tested the files myself as well.
