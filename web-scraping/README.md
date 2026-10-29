@@ -1,7 +1,7 @@
 # Terraria Wiki Scraper
 
 ## What I Chose and Why
-For my wiki, I went with the **Terraria Wiki** (https://terraria.wiki.gg). I've put way too many hours into this game so I figured it would be fun to scrape data from it. 
+For my wiki, I went with the **Terraria Wiki** (https://terraria.wiki.gg). I have a friend who is abig fan of this game so I figured it would be fun to scrape data from it. 
 
 My question was: **How do the base damage numbers and damage types compare between early melee weapons and magic weapons?**
 
@@ -10,7 +10,6 @@ I think this could be interesting to someone studying game design. Melee weapons
 ## robots.txt check
 I checked the terms of service and the robots.txt file here: https://terraria.wiki.gg/robots.txt
 
-It looks like they block bots from going into admin pages (like /w/ and /api.php) but they let you scrape the normal /wiki/ pages. I made sure my scraper only goes to the /wiki/ links and I added a time.sleep(2) so I'm not spamming their servers too fast. 
 
 ## Reflection on my data
 My scraper grabbed the weapon name, base damage, and damage type from the HTML tables. But I realized there's a big difference between what I actually measured and what the game is really like.
