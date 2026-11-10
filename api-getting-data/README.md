@@ -7,6 +7,8 @@
 ## How I Connected Them
 I started by using Open Library to search for the book *The Hobbit*. I pulled the author's name (J.R.R. Tolkien) from that data. Then, I took that author name and queried the Tolkien Gateway wiki to see if they had a page for him. 
 
+**Finding:** Interestingly, when I ran the script, the Tolkien Gateway API returned a `403 Forbidden` error. It seems they block certain script requests unless you have a very specific User-Agent or they just block Python bots entirely. Because of this, I created a fallback JSON file for the wiki data.
+
 ## The Comparison 
 
 **Requirements & Assumptions:**
