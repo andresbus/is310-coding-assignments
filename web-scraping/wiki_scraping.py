@@ -87,6 +87,7 @@ def main():
         except Exception as e:
             print("Something went wrong scraping the subpage:", e)
 
+
         print("Sleeping for 2 seconds...")
         time.sleep(2)
 
